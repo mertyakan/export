@@ -1,0 +1,6080 @@
+# Nmap 6.40 scan initiated Fri Jun 19 12:23:36 2020 as: nmap -iL range.txt -p 69,21,80,23 -oN export.txt
+Nmap scan report for 10.10.1.1
+Host is up (0.080s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.1.10
+Host is up (0.020s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.1.50
+Host is up (0.020s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.1.51
+Host is up (0.020s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.1.53
+Host is up (0.022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.1.55
+Host is up (0.020s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.1.56
+Host is up (0.020s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.1.60
+Host is up (0.019s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.1.200
+Host is up (0.020s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.1.255
+Host is up (0.046s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.3.1
+Host is up (0.017s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.3.10
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.3.50
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.3.51
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.3.52
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.3.53
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.3.54
+Host is up (0.017s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.3.200
+Host is up (0.047s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.3.255
+Host is up (0.019s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.6.1
+Host is up (0.12s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.6.10
+Host is up (0.011s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.6.50
+Host is up (0.0093s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.6.51
+Host is up (0.011s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.6.52
+Host is up (0.010s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.6.53
+Host is up (0.045s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.6.54
+Host is up (0.012s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.6.55
+Host is up (0.011s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.6.56
+Host is up (0.011s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.6.255
+Host is up (0.10s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.9.1
+Host is up (0.070s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.9.10
+Host is up (0.036s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.9.50
+Host is up (0.057s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.9.51
+Host is up (0.069s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.9.52
+Host is up (0.059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.9.54
+Host is up (0.063s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.9.200
+Host is up (0.059s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.9.255
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.16.1
+Host is up (0.030s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.16.10
+Host is up (0.0087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.16.50
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.16.51
+Host is up (0.020s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.16.52
+Host is up (0.030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.16.53
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.16.54
+Host is up (0.030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.16.55
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.16.255
+Host is up (0.097s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.19.1
+Host is up (0.028s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.19.10
+Host is up (0.012s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.19.50
+Host is up (0.028s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.19.51
+Host is up (0.030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.19.52
+Host is up (0.032s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.19.53
+Host is up (0.013s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.19.54
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.19.55
+Host is up (0.028s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.19.255
+Host is up (0.012s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.20.1
+Host is up (0.12s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.20.10
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.20.50
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.20.52
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.53
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.54
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.55
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.200
+Host is up (0.038s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.240
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.241
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.242
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.243
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.244
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.20.255
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.21.1
+Host is up (0.031s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.21.10
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.21.50
+Host is up (0.025s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.21.51
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.52
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.53
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.54
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.200
+Host is up (0.091s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.240
+Host is up (0.028s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.241
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.243
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.244
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.245
+Host is up (0.031s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.246
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.247
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.21.255
+Host is up (0.10s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.22.1
+Host is up (0.0084s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.22.10
+Host is up (0.0053s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.22.50
+Host is up (0.0055s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.22.51
+Host is up (0.0057s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.22.52
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.53
+Host is up (0.0055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.54
+Host is up (0.0056s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.56
+Host is up (0.0062s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.200
+Host is up (0.025s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.22.240
+Host is up (0.0079s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.241
+Host is up (0.0075s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.242
+Host is up (0.0059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.243
+Host is up (0.0057s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.244
+Host is up (0.0080s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.245
+Host is up (0.0066s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.22.255
+Host is up (0.0078s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.23.1
+Host is up (0.036s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.23.10
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.23.51
+Host is up (0.022s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.23.53
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.23.54
+Host is up (0.022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.23.55
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.23.56
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.23.200
+Host is up (0.099s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.23.255
+Host is up (0.022s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.24.1
+Host is up (0.036s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.24.10
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.24.50
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.24.51
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.24.52
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.24.56
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.24.57
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.24.200
+Host is up (0.045s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.24.255
+Host is up (0.28s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.25.1
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.25.10
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.25.50
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.25.51
+Host is up (0.039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.52
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.54
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.55
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.240
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.241
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.242
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.243
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.244
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.245
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.246
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.25.255
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.26.1
+Host is up (0.017s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.26.10
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.26.50
+Host is up (0.015s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.26.51
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.52
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.53
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.54
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.55
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.59
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.26.60
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.200
+Host is up (0.033s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.26.240
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.241
+Host is up (0.017s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.242
+Host is up (0.063s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.243
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.244
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.245
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.26.255
+Host is up (0.015s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.31.1
+Host is up (0.067s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.31.10
+Host is up (0.021s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.31.50
+Host is up (0.021s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.31.51
+Host is up (0.097s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.31.52
+Host is up (0.022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.31.53
+Host is up (0.052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.31.54
+Host is up (0.021s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.31.200
+Host is up (0.040s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.31.255
+Host is up (0.021s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.32.1
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.32.10
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.32.50
+Host is up (0.017s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.32.51
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.32.52
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.32.53
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.32.54
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.32.200
+Host is up (0.018s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.32.255
+Host is up (0.019s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.35.1
+Host is up (0.020s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.35.10
+Host is up (0.010s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.35.50
+Host is up (0.0098s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.35.51
+Host is up (0.011s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.35.52
+Host is up (0.011s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.35.53
+Host is up (0.0098s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.35.54
+Host is up (0.0098s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.35.55
+Host is up (0.010s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.35.200
+Host is up (0.029s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.35.255
+Host is up (0.24s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.42.1
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.42.10
+Host is up (0.015s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.42.50
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.42.51
+Host is up (0.018s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.52
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.53
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.54
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.55
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.56
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.57
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.240
+Host is up (0.052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.241
+Host is up (0.020s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.242
+Host is up (0.018s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.243
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.244
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.245
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.42.255
+Host is up (0.017s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.44.1
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.44.10
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.44.50
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.44.51
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.52
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.53
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.54
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.200
+Host is up (0.045s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.44.240
+Host is up (0.028s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.241
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.242
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.243
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.244
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.245
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.246
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.247
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.44.255
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.45.1
+Host is up (0.039s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.45.10
+Host is up (0.015s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.45.50
+Host is up (0.015s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.45.51
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.45.52
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.45.53
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.45.54
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.45.255
+Host is up (0.018s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.48.1
+Host is up (0.034s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.48.10
+Host is up (0.012s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.48.50
+Host is up (0.013s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.48.53
+Host is up (0.013s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.48.56
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.48.57
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.48.58
+Host is up (0.013s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.48.200
+Host is up (0.033s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.48.255
+Host is up (0.079s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.53.1
+Host is up (0.027s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.53.10
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.53.50
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.53.51
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.54
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.200
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.240
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.241
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.242
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.243
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.244
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.245
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.53.255
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.54.1
+Host is up (0.0080s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.54.10
+Host is up (0.0067s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.54.50
+Host is up (0.0073s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.54.51
+Host is up (0.0087s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.54.52
+Host is up (0.0069s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.54.53
+Host is up (0.0075s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.54.54
+Host is up (0.0080s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.54.200
+Host is up (0.040s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.54.255
+Host is up (0.0078s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.59.1
+Host is up (0.022s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.59.10
+Host is up (0.0069s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.59.50
+Host is up (0.0058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.59.51
+Host is up (0.0059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.59.54
+Host is up (0.0062s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.59.55
+Host is up (0.0060s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.59.56
+Host is up (0.0075s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.59.200
+Host is up (0.0061s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.59.255
+Host is up (0.0057s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.60.1
+Host is up (0.15s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.60.10
+Host is up (0.022s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.60.50
+Host is up (0.022s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.60.51
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.60.52
+Host is up (0.022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.60.53
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.60.54
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.60.55
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.60.200
+Host is up (0.022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.60.255
+Host is up (0.25s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.61.1
+Host is up (0.070s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.61.10
+Host is up (0.064s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.61.50
+Host is up (0.071s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.61.51
+Host is up (0.071s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.54
+Host is up (0.068s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.55
+Host is up (0.069s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.56
+Host is up (0.066s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.57
+Host is up (0.081s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.200
+Host is up (0.084s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.240
+Host is up (0.076s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.241
+Host is up (0.075s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.242
+Host is up (0.077s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.243
+Host is up (0.072s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.244
+Host is up (0.078s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.245
+Host is up (0.070s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.246
+Host is up (0.072s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.247
+Host is up (0.070s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.248
+Host is up (0.072s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.249
+Host is up (0.070s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.250
+Host is up (0.071s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.61.255
+Host is up (0.065s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.63.1
+Host is up (0.084s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.63.10
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.63.50
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.63.51
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.53
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.55
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.56
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.200
+Host is up (0.060s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.240
+Host is up (0.030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.241
+Host is up (0.028s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.242
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.243
+Host is up (0.029s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.245
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.246
+Host is up (0.028s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.247
+Host is up (0.067s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.63.255
+Host is up (0.025s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.67.1
+Host is up (0.0096s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.67.10
+Host is up (0.0076s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.67.50
+Host is up (0.0082s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.51
+Host is up (0.0085s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.67.52
+Host is up (0.0071s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.67.53
+Host is up (0.0087s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.54
+Host is up (0.0081s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.55
+Host is up (0.010s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.200
+Host is up (0.038s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.67.240
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.241
+Host is up (0.0097s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.242
+Host is up (0.010s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.243
+Host is up (0.0076s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.244
+Host is up (0.010s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.245
+Host is up (0.0093s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.246
+Host is up (0.011s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.67.255
+Host is up (0.0087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.72.1
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.72.10
+Host is up (0.025s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.72.51
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.72.52
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.72.53
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.72.54
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.72.55
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.72.200
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.72.255
+Host is up (0.027s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.76.1
+Host is up (0.034s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.76.10
+Host is up (0.033s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.76.50
+Host is up (0.033s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.76.51
+Host is up (0.032s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.76.52
+Host is up (0.034s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.76.53
+Host is up (0.033s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.76.55
+Host is up (0.032s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.76.200
+Host is up (0.031s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.76.255
+Host is up (0.032s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.77.1
+Host is up (0.031s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.77.10
+Host is up (0.0076s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.77.50
+Host is up (0.0058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.77.51
+Host is up (0.0055s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.77.52
+Host is up (0.0061s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.77.53
+Host is up (0.0049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.77.54
+Host is up (0.0064s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.77.56
+Host is up (0.0054s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.77.200
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp closed   telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.77.255
+Host is up (0.0088s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.79.1
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.79.10
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.79.50
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.79.52
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.79.53
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.79.54
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.79.55
+Host is up (0.029s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.79.200
+Host is up (0.037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.79.255
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.200.1
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 10.10.200.5
+Host is up (0.030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.6
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.10
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 10.10.200.51
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.52
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.53
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.54
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.55
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.57
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.58
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.60
+Host is up (0.024s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.200.62
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.65
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 10.10.200.240
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.241
+Host is up (0.028s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.242
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.244
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.245
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.246
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.247
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.248
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.249
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 10.10.200.250
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.1.1
+Host is up (0.0030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 60:9C:9F:BF:0B:10 (Unknown)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0019s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:15:65:44:05:4D (Xiamen Yealink Network Technology Co.)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.00094s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: B0:B8:67:C0:61:C4 (Unknown)
+
+Nmap scan report for srvadc01.yesilay.org.tr (192.168.1.10)
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:29:BE (VMware)
+
+Nmap scan report for 192.168.1.11
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:15:65:4D:A8:57 (Xiamen Yealink Network Technology Co.)
+
+Nmap scan report for crm2011.yesilay.org.tr (192.168.1.13)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:72:03 (VMware)
+
+Nmap scan report for developer.yesilay.org.tr (192.168.1.16)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:D7:67 (VMware)
+
+Nmap scan report for 192.168.1.18
+Host is up (-0.066s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: A8:BD:27:CE:08:6E (Unknown)
+
+Nmap scan report for srvbysw01.yesilay.org.tr (192.168.1.19)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:3A:9E (VMware)
+
+Nmap scan report for 192.168.1.21
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:A6:07 (VMware)
+
+Nmap scan report for 192.168.1.22
+Host is up (-0.066s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: 44:48:C1:C4:21:16 (Unknown)
+
+Nmap scan report for 192.168.1.23
+Host is up (0.00093s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: 44:48:C1:C4:21:8E (Unknown)
+
+Nmap scan report for 192.168.1.24
+Host is up (0.00078s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: 44:48:C1:C4:1B:A6 (Unknown)
+
+Nmap scan report for 192.168.1.25
+Host is up (0.00068s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: 00:4E:35:C2:B1:68 (Unknown)
+
+Nmap scan report for srvwebcm_rapor.yesilay.org.tr (192.168.1.26)
+Host is up (0.00060s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:7E:0F (VMware)
+
+Nmap scan report for srverptst01.yesilay.org.tr (192.168.1.27)
+Host is up (0.00058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:F5:59 (VMware)
+
+Nmap scan report for 192.168.1.28
+Host is up (0.00063s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 4C:D9:8F:8C:2A:DD (Unknown)
+
+Nmap scan report for srverptst01.yesilay.org.tr (192.168.1.29)
+Host is up (-0.066s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: 44:48:C1:C4:1E:66 (Unknown)
+
+Nmap scan report for logviewpc.yesilay.org.tr (192.168.1.30)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:48:89 (VMware)
+
+Nmap scan report for srvydm02-test.yesilay.org.tr (192.168.1.31)
+Host is up (-0.067s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:50:56:82:AB:AC (VMware)
+
+Nmap scan report for 192.168.1.32
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:15:65:6D:AF:CB (Xiamen Yealink Network Technology Co.)
+
+Nmap scan report for srvav01.yesilay.org.tr (192.168.1.33)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:9E:C7 (VMware)
+
+Nmap scan report for srverpdb01.yesilay.org.tr (192.168.1.34)
+Host is up (-0.100s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+MAC Address: 00:50:56:82:72:16 (VMware)
+
+Nmap scan report for 192.168.1.35
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:15:65:44:05:B2 (Xiamen Yealink Network Technology Co.)
+
+Nmap scan report for loganalyzer.yesilay.org.tr (192.168.1.36)
+Host is up (-0.087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:50:56:82:74:72 (VMware)
+
+Nmap scan report for srvkrl01.yesilay.org.tr (192.168.1.38)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:53:C9 (VMware)
+
+Nmap scan report for 192.168.1.39
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: A8:60:B6:2B:5E:C6 (Unknown)
+
+Nmap scan report for 192.168.1.40
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 78:CA:83:A8:C5:EB (Unknown)
+
+Nmap scan report for tycnotebook201.yesilay.org.tr (192.168.1.41)
+Host is up (-0.100s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+MAC Address: 54:E1:AD:C6:7F:7B (Unknown)
+
+Nmap scan report for 192.168.1.43
+Host is up (-0.058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: A8:BD:27:CE:08:5C (Unknown)
+
+Nmap scan report for 192.168.1.44
+Host is up (-0.049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:E0:DB:20:AE:6C (ViaVideo Communications)
+
+Nmap scan report for 192.168.1.45
+Host is up (-0.058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: B0:B8:67:C2:80:22 (Unknown)
+
+Nmap scan report for srvpam01-poc.yesilay.org.tr (192.168.1.46)
+Host is up (-0.087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:50:56:82:6A:94 (VMware)
+
+Nmap scan report for yesilaybackup.yesilay.org.tr (192.168.1.50)
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:FC:30 (VMware)
+
+Nmap scan report for 192.168.1.55
+Host is up (-0.050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:0E:43:D2:DE:4A (G-Tek Electronics Sdn. Bhd.)
+
+Nmap scan report for 192.168.1.58
+Host is up (-0.058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: A8:BD:27:CE:08:9E (Unknown)
+
+Nmap scan report for 192.168.1.63
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 80:5E:C0:06:8E:99 (Unknown)
+
+Nmap scan report for srverpap01.yesilay.org.tr (192.168.1.68)
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:AE:4F (VMware)
+
+Nmap scan report for srvsstrg01.yesilay.org.tr (192.168.1.72)
+Host is up (-0.100s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+MAC Address: E4:43:4B:94:82:63 (Unknown)
+
+Nmap scan report for 192.168.1.73
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 9C:93:4E:78:A5:20 (Xerox)
+
+Nmap scan report for srvyslyweb-test.yesilay.org.tr (192.168.1.74)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:46:2D (VMware)
+
+Nmap scan report for 192.168.1.78
+Host is up (-0.058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: A8:BD:27:CE:08:66 (Unknown)
+
+Nmap scan report for 192.168.1.82
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:15:65:E4:80:2C (Xiamen Yealink Network Technology Co.)
+
+Nmap scan report for srvqdms01.yesilay.org.tr (192.168.1.83)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:E4:07 (VMware)
+
+Nmap scan report for srv001.yesilay.org.tr (192.168.1.89)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:6E:87 (VMware)
+
+Nmap scan report for 192.168.1.92
+Host is up (-0.044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: A8:BD:27:CE:08:C2 (Unknown)
+
+Nmap scan report for medyaarsivi.yesilay.org.tr (192.168.1.94)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:A2:66 (VMware)
+
+Nmap scan report for srvpdks01.yesilay.org.tr (192.168.1.96)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:58:71 (VMware)
+
+Nmap scan report for prodvm-pdks01.yesilay.org.tr (192.168.1.97)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:F7:29 (VMware)
+
+Nmap scan report for prodvm-wsus.yesilay.org.tr (192.168.1.98)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:34:F7 (VMware)
+
+Nmap scan report for 192.168.1.99
+Host is up (-0.045s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp closed   http
+MAC Address: 00:50:56:82:48:B5 (VMware)
+
+Nmap scan report for 192.168.1.100
+Host is up (-0.045s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp closed   http
+MAC Address: 00:50:56:82:E6:E0 (VMware)
+
+Nmap scan report for 192.168.1.101
+Host is up (-0.058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: B4:5D:50:C8:FC:7C (Unknown)
+
+Nmap scan report for 192.168.1.102
+Host is up (-0.10s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+MAC Address: 08:30:6B:16:9C:00 (Unknown)
+
+Nmap scan report for srvydm01.yesilay.org.tr (192.168.1.105)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:FA:1B (VMware)
+
+Nmap scan report for srvprnt01.yesilay.org.tr (192.168.1.106)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:27:F0 (VMware)
+
+Nmap scan report for srviis01.yesilay.org.tr (192.168.1.107)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:3F:6C (VMware)
+
+Nmap scan report for srvdb01.yesilay.org.tr (192.168.1.108)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:09:19 (VMware)
+
+Nmap scan report for srvmdc01.yesilay.org.tr (192.168.1.110)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:41:80 (VMware)
+
+Nmap scan report for 192.168.1.118
+Host is up (-0.058s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: A8:BD:27:CE:0A:08 (Unknown)
+
+Nmap scan report for 192.168.1.122
+Host is up (-0.044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: EC:B1:D7:EF:A4:E0 (Unknown)
+
+Nmap scan report for 192.168.1.124
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:AD:68 (VMware)
+
+Nmap scan report for sql2016.yesilay.org.tr (192.168.1.134)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:4C:9C (VMware)
+
+Nmap scan report for 192.168.1.140
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 9C:93:4E:7A:31:D9 (Xerox)
+
+Nmap scan report for 192.168.1.141
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 9C:93:4E:8F:7D:02 (Xerox)
+
+Nmap scan report for 192.168.1.142
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 9C:93:4E:78:9B:58 (Xerox)
+
+Nmap scan report for 192.168.1.146
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 9C:93:4E:8F:AD:25 (Xerox)
+
+Nmap scan report for fs.yesilay.org.tr (192.168.1.147)
+Host is up (-0.087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:50:56:82:D0:35 (VMware)
+
+Nmap scan report for 192.168.1.150
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:6D:F5 (VMware)
+
+Nmap scan report for 192.168.1.168
+Host is up (-0.066s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+MAC Address: A8:BD:27:CE:08:5A (Unknown)
+
+Nmap scan report for dc01.yesilay.org.tr (192.168.1.170)
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:84:FF (VMware)
+
+Nmap scan report for 192.168.1.180
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:03:EA:17:17:D3 (Mega System Technologies)
+
+Nmap scan report for performans.yesilay.org.tr (192.168.1.191)
+Host is up (-0.045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:AE:8B (VMware)
+
+Nmap scan report for srveba01.yesilay.org.tr (192.168.1.195)
+Host is up (-0.087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:50:56:82:FC:F0 (VMware)
+
+Nmap scan report for 192.168.1.200
+Host is up (-0.030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:1B:EB:60:F0:A6 (DMP Electronics)
+
+Nmap scan report for controller.yesilay.org.tr (192.168.1.207)
+Host is up (-0.077s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:0B:86:B6:E5:37 (Aruba Networks)
+
+Nmap scan report for 192.168.1.208
+Host is up (-0.076s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:1A:1E:06:0E:28 (Aruba Networks)
+
+Nmap scan report for 192.168.1.209
+Host is up (-0.076s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:1A:1E:06:0E:A8 (Aruba Networks)
+
+Nmap scan report for 192.168.1.210
+Host is up (-0.076s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:00:5E:00:01:01 (USC Information Sciences Inst)
+
+Nmap scan report for 192.168.1.215
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:90:8F:36:47:81 (Audio Codes)
+
+Nmap scan report for 192.168.1.218
+Host is up (-0.087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 54:9F:35:17:D9:DA (Unknown)
+
+Nmap scan report for 192.168.1.219
+Host is up (-0.100s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+MAC Address: 54:9F:35:17:EE:1A (Unknown)
+
+Nmap scan report for 192.168.1.221
+Host is up (-0.087s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+MAC Address: 00:50:56:82:EF:F5 (VMware)
+
+Nmap scan report for 192.168.1.224
+Host is up (-0.044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:90:8F:50:BE:CA (Audio Codes)
+
+Nmap scan report for 192.168.1.225
+Host is up (-0.049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:90:8F:57:EB:07 (Audio Codes)
+
+Nmap scan report for 192.168.1.226
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:01:3E:15:D9:23 (Ascom Tateco AB)
+
+Nmap scan report for 192.168.1.227
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:01:3E:16:DE:9D (Ascom Tateco AB)
+
+Nmap scan report for tycnotebook93.yesilay.org.tr (192.168.1.229)
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:90:8F:50:E9:75 (Audio Codes)
+
+Nmap scan report for 192.168.1.240
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 60:9C:9F:4D:4C:A0 (Unknown)
+
+Nmap scan report for app.yesilay.org.tr (192.168.1.241)
+Host is up (-0.051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 00:50:56:82:60:F2 (VMware)
+
+Nmap scan report for rapor.yesilay.org.tr (192.168.1.243)
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+MAC Address: 00:50:56:82:47:B4 (VMware)
+
+Nmap scan report for 192.168.1.246
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 60:9C:9F:B6:F7:6C (Unknown)
+
+Nmap scan report for 192.168.1.248
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 60:9C:9F:B6:FD:48 (Unknown)
+
+Nmap scan report for 192.168.1.249
+Host is up (-0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+MAC Address: 78:A6:E1:29:65:A4 (Unknown)
+
+Nmap scan report for 192.168.1.42
+Host is up (0.000092s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.2.3
+Host is up (0.00085s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.4
+Host is up (0.0011s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.5
+Host is up (0.00053s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.6
+Host is up (0.00059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.7
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.9
+Host is up (0.00058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.10
+Host is up (0.00039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.11
+Host is up (0.00051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.12
+Host is up (0.00037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.13
+Host is up (0.0012s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.15
+Host is up (0.00060s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.16
+Host is up (0.00058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.17
+Host is up (0.00084s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.18
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.19
+Host is up (0.00056s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.20
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.21
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.22
+Host is up (0.00051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.23
+Host is up (0.00058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.24
+Host is up (0.00056s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.25
+Host is up (0.00060s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.26
+Host is up (0.00053s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.27
+Host is up (0.00054s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.28
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.29
+Host is up (0.00053s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.30
+Host is up (0.00058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.31
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.32
+Host is up (0.00093s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.33
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.34
+Host is up (0.00062s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.35
+Host is up (0.00059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.36
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.37
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.38
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.39
+Host is up (0.0011s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.41
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.42
+Host is up (0.0010s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.43
+Host is up (0.00051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.44
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.45
+Host is up (0.00051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.46
+Host is up (0.00039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.47
+Host is up (0.00064s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.50
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.51
+Host is up (0.00059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.53
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.54
+Host is up (0.00053s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.55
+Host is up (0.0022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.56
+Host is up (0.00056s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.57
+Host is up (0.00058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.58
+Host is up (0.00047s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.59
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.60
+Host is up (0.00033s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.61
+Host is up (0.00090s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.62
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.64
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.65
+Host is up (0.00084s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.66
+Host is up (0.00090s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.67
+Host is up (0.00089s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.71
+Host is up (0.00055s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.73
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.74
+Host is up (0.00054s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.79
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.80
+Host is up (0.00051s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.83
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.84
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.85
+Host is up (0.00089s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.87
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.89
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.91
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.92
+Host is up (0.00049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.93
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.94
+Host is up (0.00053s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.95
+Host is up (0.00085s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.96
+Host is up (0.00049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.97
+Host is up (0.00095s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.98
+Host is up (0.00045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.99
+Host is up (0.00036s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.100
+Host is up (0.00049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.102
+Host is up (0.00044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.103
+Host is up (0.00049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.104
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.106
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.131
+Host is up (0.044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.2.255
+Host is up (0.072s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.3.8
+Host is up (0.0045s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.3.20
+Host is up (0.0039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.21
+Host is up (0.0033s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.22
+Host is up (0.0037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.23
+Host is up (0.0037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.24
+Host is up (0.0044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.25
+Host is up (0.0037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.26
+Host is up (0.0038s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.28
+Host is up (0.0042s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.3.35
+Host is up (0.0042s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.130
+Host is up (0.0037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.250
+Host is up (0.0065s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.3.255
+Host is up (0.19s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.4.1
+Host is up (0.0033s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.4.2
+Host is up (0.0035s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.3
+Host is up (0.0028s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.4.12
+Host is up (0.0032s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.14
+Host is up (0.0032s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.15
+Host is up (0.0039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.16
+Host is up (0.0031s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.17
+Host is up (0.0035s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.18
+Host is up (0.0037s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.19
+Host is up (0.0033s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.20
+Host is up (0.0029s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.35
+Host is up (0.0031s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.37
+Host is up (0.0030s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.4.108
+Host is up (0.0085s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.140
+Host is up (0.013s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.4.205
+Host is up (0.0027s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.4.250
+Host is up (0.0058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.1
+Host is up (0.034s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.7.2
+Host is up (0.0046s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.7.3
+Host is up (0.0034s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.7.50
+Host is up (0.0036s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.51
+Host is up (0.0041s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.52
+Host is up (0.0039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.53
+Host is up (0.0039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.54
+Host is up (0.0048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.56
+Host is up (0.0038s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.57
+Host is up (0.0039s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.7.255
+Host is up (0.0099s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.12.1
+Host is up (0.043s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.12.10
+Host is up (0.010s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.12.50
+Host is up (0.021s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.51
+Host is up (0.017s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.56
+Host is up (0.017s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.57
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.58
+Host is up (0.012s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.12.60
+Host is up (0.0089s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.61
+Host is up (0.018s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.12.63
+Host is up (0.059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.64
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.65
+Host is up (0.0094s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.69
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.76
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.77
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.78
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.79
+Host is up (0.014s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.83
+Host is up (0.0086s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.88
+Host is up (0.016s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.91
+Host is up (0.0091s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.140
+Host is up (0.015s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.250
+Host is up (0.15s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.12.255
+Host is up (0.33s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.14.1
+Host is up (0.099s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.14.10
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.14.50
+Host is up (0.0016s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.14.51
+Host is up (0.0025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.53
+Host is up (0.0022s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.55
+Host is up (0.0025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.58
+Host is up (0.0023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.59
+Host is up (0.0029s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.240
+Host is up (0.0054s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.241
+Host is up (0.0049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.242
+Host is up (0.0024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.243
+Host is up (0.0029s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.244
+Host is up (0.0023s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.245
+Host is up (0.0024s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.246
+Host is up (0.0022s latency).
+PORT   STATE  SERVICE
+21/tcp open   ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.14.255
+Host is up (0.0068s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.50.1
+Host is up (0.0063s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.51
+Host is up (0.00075s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.50.57
+Host is up (0.058s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.50.60
+Host is up (0.00052s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.63
+Host is up (0.00064s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.50.64
+Host is up (0.059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.66
+Host is up (0.00072s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.50.68
+Host is up (0.00034s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.69
+Host is up (0.00049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.70
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.74
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.79
+Host is up (0.00072s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.50.81
+Host is up (0.00049s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.88
+Host is up (0.00071s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp filtered telnet
+69/tcp closed   tftp
+80/tcp closed   http
+
+Nmap scan report for 192.168.50.94
+Host is up (0.00064s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.50.97
+Host is up (0.00082s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.112
+Host is up (0.00044s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.129
+Host is up (0.00054s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.150
+Host is up (0.00045s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.151
+Host is up (0.00050s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.152
+Host is up (0.00046s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.50.255
+Host is up (0.10s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.1
+Host is up (0.0030s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.52.2
+Host is up (0.00018s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.52.3
+Host is up (0.00033s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.52.13
+Host is up (0.099s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.16
+Host is up (0.040s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.17
+Host is up (0.0024s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.31
+Host is up (0.31s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.33
+Host is up (0.014s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.39
+Host is up (0.068s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.92
+Host is up (0.020s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.103
+Host is up (0.089s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.52.105
+Host is up (0.11s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.106
+Host is up (0.0055s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.108
+Host is up (0.33s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.110
+Host is up (0.047s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.113
+Host is up (0.0015s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.117
+Host is up (0.11s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.125
+Host is up (0.0031s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.127
+Host is up (0.13s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.132
+Host is up (0.025s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.136
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.144
+Host is up (0.046s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.155
+Host is up (0.0033s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.156
+Host is up (0.054s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.52.157
+Host is up (0.055s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.161
+Host is up (0.055s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.162
+Host is up (0.084s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.174
+Host is up (0.018s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.186
+Host is up (0.20s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.190
+Host is up (0.34s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.196
+Host is up (0.25s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.208
+Host is up (0.0037s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.52.216
+Host is up (0.29s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.52.220
+Host is up (0.21s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.1
+Host is up (0.079s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.56.2
+Host is up (0.00079s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.56.3
+Host is up (0.00093s latency).
+PORT   STATE    SERVICE
+21/tcp open     ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.56.12
+Host is up (0.62s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.14
+Host is up (0.033s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.16
+Host is up (0.0068s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.21
+Host is up (0.42s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.25
+Host is up (0.029s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.28
+Host is up (0.012s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for 192.168.56.31
+Host is up (0.082s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.32
+Host is up (0.059s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.34
+Host is up (0.073s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.39
+Host is up (0.081s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.50
+Host is up (0.12s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.83
+Host is up (0.13s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.111
+Host is up (0.099s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.136
+Host is up (0.024s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.154
+Host is up (0.30s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.174
+Host is up (0.20s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.183
+Host is up (0.066s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.56.230
+Host is up (0.093s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for 192.168.150.1
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp open   telnet
+69/tcp closed tftp
+80/tcp closed http
+
+Nmap scan report for drvm-vc1.yesilay.org.tr (192.168.150.50)
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drvm-psc1.yesilay.org.tr (192.168.150.51)
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drvm-psc2.yesilay.org.tr (192.168.150.52)
+Host is up (0.025s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drhv-esxi1.yesilay.org.tr (192.168.150.61)
+Host is up (0.017s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drhv-esxi2.yesilay.org.tr (192.168.150.62)
+Host is up (0.023s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drhv-esxiddve.yesilay.org.tr (192.168.150.64)
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drilo-esxi1.yesilay.org.tr (192.168.150.71)
+Host is up (0.025s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drilo-esxi2.yesilay.org.tr (192.168.150.72)
+Host is up (0.018s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drilo-esxi3.yesilay.org.tr (192.168.150.73)
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drilo-esxiddve.yesilay.org.tr (192.168.150.74)
+Host is up (0.023s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drvm-ave1.yesilay.org.tr (192.168.150.81)
+Host is up (0.027s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for drvm-aveprx1.yesilay.org.tr (192.168.150.82)
+Host is up (0.010s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+Nmap scan report for drvm-vrpacls1.yesilay.org.tr (192.168.150.91)
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drvm-vrpa1.yesilay.org.tr (192.168.150.92)
+Host is up (0.027s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drvm-vrpa2.yesilay.org.tr (192.168.150.93)
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for drstg-cls1.yesilay.org.tr (192.168.150.100)
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drstg-tc1.yesilay.org.tr (192.168.150.101)
+Host is up (0.027s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drstg-bc1.yesilay.org.tr (192.168.150.102)
+Host is up (0.026s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for drvm-ddve1.yesilay.org.tr (192.168.150.103)
+Host is up (0.027s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp closed   telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.150.104
+Host is up (0.027s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp closed   telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.150.105
+Host is up (0.026s latency).
+PORT   STATE    SERVICE
+21/tcp closed   ftp
+23/tcp closed   telnet
+69/tcp filtered tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.150.113
+Host is up (0.018s latency).
+PORT   STATE  SERVICE
+21/tcp closed ftp
+23/tcp closed telnet
+69/tcp closed tftp
+80/tcp open   http
+
+Nmap scan report for 192.168.150.254
+Host is up (0.016s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp open     telnet
+69/tcp closed   tftp
+80/tcp open     http
+
+Nmap scan report for 192.168.150.255
+Host is up (0.011s latency).
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+23/tcp filtered telnet
+69/tcp filtered tftp
+80/tcp filtered http
+
+# Nmap done at Fri Jun 19 12:32:51 2020 -- 12800 IP addresses (748 hosts up) scanned in 554.54 seconds
